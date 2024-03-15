@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; /* Stack the text vertically */
+}
+
+h1, p {
+  margin: 0; /* Remove default margin */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px; /* Adjust spacing between menu items */
+}
+
+nav li a {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav li a:hover {
+  background-color: #cc0000; /* Darken the background color on hover */
+}
+

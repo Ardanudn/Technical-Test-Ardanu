@@ -24,9 +24,9 @@ if (mysqli_num_rows($data) > 0) { ?>
     $databean = $rows[0]
     ?>
     <h4>Bean of The Day</h4>
-    <p><?= $databean['name']; ?></p>
+    <h2><?= $databean['name']; ?></h2>
     <h4>Sale Price</h4>
-    <p>$ <?= $databean['sale_price']; ?></p>
+    <h2>$ <?= $databean['sale_price']; ?></h2>
     <h4>Description</h4>
     <p><?= $databean['description']; ?></p>
 <?php

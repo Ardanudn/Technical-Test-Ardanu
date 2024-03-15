@@ -33,7 +33,7 @@ require "header.php"; ?>
     </table>
 </div>
 
-<a href="add_distributor.php">[Add]</a>
+<a style="margin-top: 10px;" href="add_distributor.php">[Add]</a>
 
 <?php
 require "footer.php";

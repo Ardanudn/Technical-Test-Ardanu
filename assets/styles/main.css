@@ -1,6 +1,7 @@
 header {
   display: flex;
   align-items: center;
+  margin-bottom: 20px; 
 }
 
 img {
@@ -14,6 +15,10 @@ img {
 
 h1, p {
   margin: 0; /* Remove default margin */
+}
+
+nav {
+  margin-bottom: 20px;
 }
 
 nav ul {

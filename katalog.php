@@ -10,12 +10,12 @@ $data = mysqli_query($conn, 'SELECT * FROM beans');
 
 require "header.php"; ?>
 
-<div align="center">
+<div>
     <table>
         <tr>
             <th>Bean</th>
             <th>Description</th>
-            <th>Price Unit</th>
+            <th>Price/Unit</th>
         </tr>
         <?php if (mysqli_num_rows($data) > 0) { ?>
             <?php
@@ -25,7 +25,7 @@ require "header.php"; ?>
                 <tr>
                     <td><?= $databean['name']; ?></td>
                     <td><?= $databean['description']; ?></td>
-                    <td><?= $databean['price']; ?></td>
+                    <td>$ <?= $databean['price']; ?></td>
                 </tr>
             <?php $id++;
             } ?>
